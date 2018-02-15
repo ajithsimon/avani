@@ -19,7 +19,17 @@
 
         <link rel="stylesheet" href="assets/css/helpers.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <style>
 
+            @media (min-width: 767px) {
+                .probootstrap_cover_v3{
+                    height: 50vh;
+                }
+                .probootstrap_cover_v3 .container .row{
+                    height: 50vh;
+                }
+            }
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark probootstrap_navbar probootstrap_scrolled-light" id="probootstrap-navbar">
@@ -30,10 +40,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="probootstrap-menu">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="challenges.html">Challenges We Address</a></li>
-                        <li class="nav-item"><a class="nav-link" href="what-we-do.html">What We Do?</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="what-we-do.html">What We Do?</a></li>
                         <li class="nav-item"><a class="nav-link" href="why-us.html">Why Choose Us?</a></li>
                     </ul>
                 </div>
@@ -46,7 +56,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md">
-                        <h2 class="heading mb-2 probootstrap-animate">Engineered For Performance & Built to Perfection</h2>
+                        <h2 class="heading mb-2 probootstrap-animate">What We Do?</h2>
                     </div> 
                 </div>
             </div>
@@ -57,55 +67,20 @@
         <!-- END section -->
 
 
-        <section class="probootstrap_section" id="section-feature">
-            <div class="container">
-                <div class="row">
+        <section class="probootstrap_section d-md-flex" id="section-about">
+            <div class="container probootstrap-text">
+                <div class="probootstrap-inner probootstrap-animate" data-animate-effect="fadeInRight">
+                    <strong>Concept design: </strong>- New product design projects related to all kinds of heavy equipment and material transportation trailers, tippers, tipper trailers, water tankers, cement bulkers etc. Waste management transport vehicle like Dumper placer, Skip loaders, hook loaders, compactors etc by keeping in mind customer requirements, bench marking with various competitors, styling, ergonomics, usability studies.<br/>
+                    <strong>Design modelling & Drawing creation: </strong>- Detailed CAD modelling design with reference to Design for Assembly (DFA), Design for Manufacturability (DFM) and Design for Service (DFS). Creating detailed manufacturing drawings and Bill of Materials.
+                    <strong>Design validation: </strong>- CAE structural analysis.<br/>
+                    <strong>Manufacturing support: </strong>- Building prototype, testing and Bulk Manufacturing support.<br/>
 
-                    <div class="col-md-3 col-sm-6 probootstrap-animate">
-                        <div class="media d-block text-center probootstrap-media">
-                            <img class="mr-0 mb-3 w-50 img-fluid rounded-circle" src="assets/images/img_1.jpg" alt="Generic placeholder image">
-                            <div class="media-body">
-                                <h5 class="mt-3">About Us</h5>
-                                <p class="probootstrap_font-14">AVANI Design Service is a next generation Design Engineering firm specialized and dedicated in providing service to.</p>
-                                <p class="read-more"><a href="about.html"><span class="ion-ios-arrow-thin-right probootstrap_font-30"></span></a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 probootstrap-animate">
-                        <div class="media d-block text-center probootstrap-media">
-                            <img class="mr-0 mb-3 w-50 img-fluid rounded-circle" src="assets/images/img_2.jpg" alt="Generic placeholder image">
-                            <div class="media-body">
-                                <h5 class="mt-3">Challenges We Address</h5>
-                                <p class="probootstrap_font-14">At AVANI, we understand the customer requirement to provide innovative solution for New Product development and </p>
-                                <p class="read-more"><a href="challenges.html"><span class="ion-ios-arrow-thin-right probootstrap_font-30"></span></a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 probootstrap-animate">
-                        <div class="media d-block text-center probootstrap-media">
-                            <img class="mr-0 mb-3 w-50 img-fluid rounded-circle" src="assets/images/img_3.jpg" alt="Generic placeholder image">
-                            <div class="media-body">
-                                <h5 class="mt-3">What We Do?</h5>
-                                <p class="probootstrap_font-14">New product design projects related to all kinds of heavy equipment and material transportation trailers, tippers, tipper trailers</p>
-                                <p class="read-more"><a href="what-we-do.html"><span class="ion-ios-arrow-thin-right probootstrap_font-30"></span></a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 probootstrap-animate">
-                        <div class="media d-block text-center probootstrap-media">
-                            <img class="mr-0 mb-3 w-50 img-fluid rounded-circle" src="assets/images/img_4.jpg" alt="Generic placeholder image">
-                            <div class="media-body">
-                                <h5 class="mt-3">Why Choose Us?</h5>
-                                <p class="probootstrap_font-14">Having more than 10 years of developing complete engineering products and designs related to all kinds of heavy equipment</p>
-                                <p class="read-more"><a href="why-us.html"><span class="ion-ios-arrow-thin-right probootstrap_font-30"></span></a></p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <em>CAD and CAE tools used at AVANI Design Service.</em><br/>
+                    <strong>CAD Tools: </strong>- CreO Parametric 4.0, Solid works 2017, 3DExperience.<br/>
+                    <strong>CAE Tools: </strong>- CreO Simulation.
                 </div>
             </div>
         </section>
-        <!-- END section -->
 
         <footer class="probootstrap_section probootstrap-border-top" style="color: white;background: #555">
             <div class="container">

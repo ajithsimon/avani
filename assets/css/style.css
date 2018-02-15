@@ -1446,3 +1446,13 @@ a {
 .probootstrap-animate {
     opacity: 0;
     visibility: hidden; }
+footer ul{
+    list-style-position: inside;
+   padding: 0;
+}
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 20px;
+}
