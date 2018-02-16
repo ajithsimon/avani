@@ -1101,6 +1101,12 @@ a {
     left: 0;
     top: 0;
     margin-top: -130px; }
+.probootstrap_navbar.scrolled .navbar-brand img{
+    width: 80px;
+}
+.probootstrap_navbar .navbar-brand img{
+    width: 120px;
+}
 @media (max-width: 991px) {
     .probootstrap_navbar.scrolled .navbar-nav {
         background: none;
