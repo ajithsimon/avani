@@ -1314,9 +1314,11 @@ a {
 .probootstrap-section-half {
     float: left;
     width: 100%; }
-.probootstrap-section-half .probootstrap-image,
+.probootstrap-section-half .probootstrap-image{
+    width: 40%
+}
 .probootstrap-section-half .probootstrap-text {
-    width: 50%; }
+    width: 60%; }
 @media (max-width: 991px) {
     .probootstrap-section-half .probootstrap-image,
     .probootstrap-section-half .probootstrap-text {
