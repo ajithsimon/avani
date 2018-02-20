@@ -1315,14 +1315,17 @@ a {
     float: left;
     width: 100%; }
 .probootstrap-section-half .probootstrap-image{
-    width: 40%
+    width: 40%;padding: 4rem;
+}
+.probootstrap-section-half .probootstrap-image img{
+    max-width: 100%
 }
 .probootstrap-section-half .probootstrap-text {
     width: 60%; }
 @media (max-width: 991px) {
     .probootstrap-section-half .probootstrap-image,
     .probootstrap-section-half .probootstrap-text {
-        width: 100%; } }
+        width: 100%; padding: 2rem;} }
 @media (max-width: 767px) {
     .probootstrap-section-half .probootstrap-image {
         height: 400px; } }
